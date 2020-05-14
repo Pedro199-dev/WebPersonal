@@ -2,7 +2,20 @@
 
 {% block title %}Contacto{% endblock %}
 
+{% block background %}{% load static %}{%static 'core/img/contact-bg.jpg' %}{% endblock %} 
+
+{% block headers %}
+<h1>Contacto</h1>
+<span class="subheading">Asesoría</span>
+{% endblock %}
+
 {% block content %}
-<h2>Contacto</h2>
-    <p>Me llamo Pedro y esta es mi correo por algun problema: <a href="mailto:pet@mail.com">mailto:pet@mail.com</a></p>
+
+<div class="col-lg-8 col-md-10 mx-auto">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+          <br>
+          <h3> Me llamo Pedro y esta es mi correo por algun problema: <a href="mailto:pet@mail.com">mailto:pet@mail.com</a></h3>
+          <p><b>Teléfono:</b> +09 876 543 210</p>
+          <p><b>Honorarios:</b> 60€/h (precio base)</p>
+        </div>
 {% endblock %}
